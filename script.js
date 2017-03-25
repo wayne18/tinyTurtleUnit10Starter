@@ -1,17 +1,23 @@
 TinyTurtle.apply(window, [undefined, 400, 400]);
 
 function square(s){
-forward(50);
-right(90);
-forward(50);
-right(90);
-forward(50);
-right(90);
-forward(50);
-right(90);
-forward(50);
+forward(s);
+right(s);
+forward(s);
+right(s);
+forward(s);
+right(s);
+forward(s);
+right(s);
+forward(s);
 }
 function triangle(t){
+right(t);
+forward(t);
+right(t);
+forward(t);
+right(t);
+forward(t);
 right(t);
 forward(t);
 right(t);
@@ -41,7 +47,27 @@ forward(r);
 right(r);
 forward(r);
 }
+function pentagon(p){
+forward(p);
+right(p);
+forward(p);
+right(p);
+forward(p);
+right(p);
+forward(p);
+right(p);
+forward(p);
+right(p);
+forward(p);
+right(p);
+forward(p);
+right(p);
+forward(p);
+right(p);
+forward(p);
+}
 // Type your function call below
-square();
-triangle(156);
-rectangle(30);
+square(90);
+rectangle(50);
+triangle(144);
+pentagon(40);
